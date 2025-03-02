@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spreadsheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="toolbar">
+        <div class="toolbar-group">
+            <button onclick="saveSpreadsheet()">Save</button>
+            <button onclick="loadSpreadsheet()">Load</button>
+        </div>
+
+        <div class="toolbar-group">
+            <input type="text" id="findText" placeholder="Find">
+            <input type="text" id="replaceText" placeholder="Replace">
+            <button onclick="findAndReplace()">Find & Replace</button>
+        </div>
+
+        <div class="toolbar-group">
+            <button onclick="removeDuplicates()">Remove Duplicates</button>
+            <button onclick="clearSelection()">Clear Selection</button>
+        </div>
+
+        <div class="toolbar-group">
+            <button onclick="applyFunction('SUM')">SUM</button>
+            <button onclick="applyFunction('AVERAGE')">AVERAGE</button>
+            <button onclick="applyFunction('MAX')">MAX</button>
+            <button onclick="applyFunction('MIN')">MIN</button>
+            <button onclick="applyFunction('COUNT')">COUNT</button>
+        </div>
+    </div>
+
+    <div id="selection-info">Selected Cells: <span id="selected-range">None</span></div>
+
+    <div id="spreadsheet"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
