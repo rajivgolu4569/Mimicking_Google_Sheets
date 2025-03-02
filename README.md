@@ -1,44 +1,52 @@
-# 📊 Spreadsheet Web Application  
+# Spreadsheet Web Application
 
-## 📌 Overview  
-This project is a web-based spreadsheet application that mimics the core functionalities of Google Sheets. It allows users to input, edit, and manage tabular data dynamically. The application includes features such as data validation, mathematical operations, find & replace, duplicate removal, and data persistence using MongoDB.  
+## **Overview**
+This is a web-based spreadsheet application that mimics Google Sheets. It allows users to perform basic spreadsheet operations like data entry, find & replace, duplicate removal, and mathematical calculations (**Sum, Average, Min, Max, Count**). The data can be saved and loaded using MongoDB.
 
-## ✨ Features  
-- **Spreadsheet UI:** Interactive grid layout with dynamic row & column creation.  
-- **Data Operations:** Find & replace, remove duplicates, and data validation.  
-- **Mathematical Functions:** Perform sum, average, min, max, and count on selected cells.  
-- **Selection & Highlighting:** Click & drag to select multiple cells.  
-- **Persistent Storage:** Save and load spreadsheet data using MongoDB.  
-- **Responsive Design:** Adjusts grid layout based on screen size.  
+## **Features**
+- **Dynamic Spreadsheet**: Automatically adjusts the number of columns based on screen size.
+- **Find and Replace**: Replace occurrences of a specific text within the spreadsheet.
+- **Remove Duplicates**: Clears duplicate values from the spreadsheet.
+- **Mathematical Operations**: Supports **Sum, Average, Min, Max, and Count** for selected cells.
+- **Data Persistence**: Save and load spreadsheets using MongoDB.
+- **Drag and Select**: Select a range of cells by dragging.
 
-## 🛠️ Tech Stack  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
+## **Installation & Usage**
+### **Prerequisites**
+Ensure you have the following installed:
+- **Node.js** and **npm** (for backend server)
+- **MongoDB** (for database storage)
 
-## 🚀 Setup & Installation  
+### **Steps to Run and Use the Project**
+1. **Clone and Install Dependencies**  
+   - Clone the repository:
+     ```sh
+     git clone https://github.com/yourusername/spreadsheet-app.git
+     cd spreadsheet-app
+     ```
+   - Install dependencies:
+     ```sh
+     npm install
+     ```
 
-### 1️⃣ Prerequisites  
-Ensure you have the following installed:  
-- [Node.js](https://nodejs.org/)  
-- [MongoDB](https://www.mongodb.com/)  
+2. **Start the Backend Server**  
+   - Run the backend:
+     ```sh
+     node server.js
+     ```
 
-### 2️⃣ Install Dependencies  
-npm install
+3. **Open the Application**  
+   - Open `index.html` in your browser.
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
+4. **Using the Spreadsheet**  
+   - **Entering Data**: Click any cell and type your data.  
+   - **Selecting Cells**: Click and drag to select multiple cells.  
+   - **Performing Calculations**:  
+     - Select the required cells.  
+     - Click the **Sum, Average, Min, Max, or Count** button.  
+     - The result will be displayed in an alert.  
+   - **Saving and Loading Data**:  
+     - Click **Save** to store the spreadsheet in MongoDB.  
+     - Click **Load** to retrieve the saved spreadsheet.  
 
 
