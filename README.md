@@ -24,8 +24,11 @@ Ensure you have the following installed:
 - [MongoDB](https://www.mongodb.com/)  
 
 ### 2️⃣ Install Dependencies  
-```sh
-npm install  
+npm install
+
+
+
+
 
  
 
