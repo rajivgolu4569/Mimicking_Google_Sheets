@@ -23,14 +23,15 @@ Ensure you have the following installed:
 - [Node.js](https://nodejs.org/)  
 - [MongoDB](https://www.mongodb.com/)  
 
-### 2️⃣ Clone the Repository  
-```sh
-git clone https://github.com/your-username/spreadsheet-app.git  
-cd spreadsheet-app
-
-**### 3️⃣ Install Dependencies**
+### 2️⃣ Install Dependencies  
 ```sh
 npm install  
+
+ 
+
+
+
+
 
 
 
